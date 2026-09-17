@@ -1,0 +1,32 @@
+# Stage 2: STATIC OBSTACLES. Run against static_obstacles_fast.world
+# (unthrottled physics -- see _base_template_fast.world). This is the
+# checkpoint used for the hard requirement, the ROS2 deployment demo, and
+# the "unseen"/"narrow"/"dead-end" generalization scenarios.
+#
+# vs. the original ppo_config_static.yaml: total_timesteps raised from
+# 120,000 -> 700,000. The report's own Section 5 correction showed 120k was
+# not enough for explained_variance to converge (it sat ~0.5 the whole run,
+# vs Stage 1's clean rise to ~1.0) -- this is the single biggest lever for
+# closing the 70% -> ~90% success-rate gap. n_steps/batch_size also raised
+# a notch, since VecNormalize + a much longer run benefits from a bit more
+# rollout per update.
+#
+# Launch:
+#   python3 train.py --config config/ppo_config_stage2_static.yaml \
+#       --resume ../policy/checkpoints_empty/final_model.zip \
+#       --vecnorm-stats ../policy/checkpoints_empty/vecnormalize.pkl
+seed: 42
+total_timesteps: 700000
+learning_rate: 0.0003
+n_steps: 2048
+batch_size: 128
+gamma: 0.99
+gae_lambda: 0.95
+ent_coef: 0.01
+checkpoint_freq: 50000
+checkpoint_dir: ../policy/checkpoints_static
+log_dir: ../results/logs_static
+randomize_obstacles: false
+curriculum_stage: 1
+allow_reverse: false
+dynamic_obstacle: false

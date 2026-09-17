@@ -1,0 +1,31 @@
+# Stage 4 (optional fine-tune): dynamic_obstacle=true, run against
+# dynamic_obstacle_fast.world so the policy gets SOME training-time exposure
+# to a moving obstacle before being scored on that scenario. The original
+# run scored 50%/50% here with ZERO training exposure to motion -- that is
+# an expected floor per the assessment brief, not a bug, but it can be
+# improved without pretending the fundamental limitation (single LiDAR
+# snapshot, no obstacle-velocity feature) goes away.
+#
+# Do NOT expect this to reach the ~90% static/unseen target -- report it
+# honestly as "improved from a zero-exposure baseline" rather than as a
+# solved scenario.
+#
+# Launch:
+#   python3 train.py --config config/ppo_config_stage4_dynamic.yaml \
+#       --resume ../policy/checkpoints_static/final_model.zip \
+#       --vecnorm-stats ../policy/checkpoints_static/vecnormalize.pkl
+seed: 44
+total_timesteps: 150000
+learning_rate: 0.0001
+n_steps: 2048
+batch_size: 128
+gamma: 0.99
+gae_lambda: 0.95
+ent_coef: 0.02   # slightly higher entropy -- encourage exploring reactive avoidance, not memorized static paths
+checkpoint_freq: 25000
+checkpoint_dir: ../policy/checkpoints_dynamic
+log_dir: ../results/logs_dynamic
+randomize_obstacles: false
+curriculum_stage: 3
+allow_reverse: false
+dynamic_obstacle: true

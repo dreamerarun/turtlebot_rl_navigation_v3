@@ -1,0 +1,18 @@
+# Stage 1: EMPTY WORLD. Run against rl_empty_world_fast.world (unthrottled physics).
+# Goal: basic goal-reaching + heading correction. Kept short since this is a
+# foundation stage, not a reported evaluation scenario.
+seed: 42
+total_timesteps: 150000
+learning_rate: 0.0003
+n_steps: 2048
+batch_size: 128
+gamma: 0.99
+gae_lambda: 0.95
+ent_coef: 0.01
+checkpoint_freq: 25000
+checkpoint_dir: ../policy/checkpoints_empty
+log_dir: ../results/logs_empty
+randomize_obstacles: false
+curriculum_stage: 0
+allow_reverse: false
+dynamic_obstacle: false

@@ -1,0 +1,815 @@
+{
+  "summary": {
+    "scenario": "static_obstacles",
+    "seed": 42,
+    "episodes": 100,
+    "success_rate": 0.71,
+    "collision_rate": 0.21,
+    "avg_episode_reward": 101.29213699843056,
+    "avg_time_to_goal": 11.216901408450703,
+    "avg_path_length": 1.5831425292108987,
+    "avg_goal_distance_error": 0.6903942653210369
+  },
+  "episodes": [
+    {
+      "outcome": "out_of_bounds",
+      "reward": -100.81575227101855,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 5.34840487270184
+    },
+    {
+      "outcome": "out_of_bounds",
+      "reward": -100.21450303854371,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 4.052982847354491
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 182.5647890117418,
+      "steps": 67,
+      "time_to_goal": 13.4,
+      "path_length": 4.007699493374731,
+      "goal_distance_error": 0.1333650562206896
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 146.1683829016364,
+      "steps": 42,
+      "time_to_goal": 8.4,
+      "path_length": 1.5760968741641337,
+      "goal_distance_error": 0.14386829164767184
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.06094157999337,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 1.1810892143381446
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.09852218725366,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 2.4464232612276673
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 169.70426274348353,
+      "steps": 53,
+      "time_to_goal": 10.600000000000001,
+      "path_length": 1.993014890282203,
+      "goal_distance_error": 0.13796460127671029
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 138.4799186075344,
+      "steps": 39,
+      "time_to_goal": 7.800000000000001,
+      "path_length": 1.2717657485545495,
+      "goal_distance_error": 0.14903934804052368
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 128.9665495752982,
+      "steps": 34,
+      "time_to_goal": 6.800000000000001,
+      "path_length": 1.0619234430923659,
+      "goal_distance_error": 0.1450581781605873
+    },
+    {
+      "outcome": "timeout",
+      "reward": 57.393771922324866,
+      "steps": 300,
+      "time_to_goal": null,
+      "path_length": 2.1646269883703964,
+      "goal_distance_error": 0.255552769102315
+    },
+    {
+      "outcome": "timeout",
+      "reward": 53.785091588870145,
+      "steps": 300,
+      "time_to_goal": null,
+      "path_length": 1.867835555775871,
+      "goal_distance_error": 0.6505885351078465
+    },
+    {
+      "outcome": "timeout",
+      "reward": 27.03596608413164,
+      "steps": 300,
+      "time_to_goal": null,
+      "path_length": 1.2599633525026988,
+      "goal_distance_error": 0.858103714664472
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 183.14088727972717,
+      "steps": 64,
+      "time_to_goal": 12.8,
+      "path_length": 2.495213190366313,
+      "goal_distance_error": 0.1424538099012447
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 153.08511231794867,
+      "steps": 33,
+      "time_to_goal": 6.6000000000000005,
+      "path_length": 1.3972860985028421,
+      "goal_distance_error": 0.14010410537946244
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 129.90085050582007,
+      "steps": 32,
+      "time_to_goal": 6.4,
+      "path_length": 0.8925882565542662,
+      "goal_distance_error": 0.1409467743381805
+    },
+    {
+      "outcome": "timeout",
+      "reward": 0.15946675256399964,
+      "steps": 300,
+      "time_to_goal": null,
+      "path_length": 0.4439290824578881,
+      "goal_distance_error": 2.4995634492133463
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 121.63442958144374,
+      "steps": 67,
+      "time_to_goal": 13.4,
+      "path_length": 0.9737904146351155,
+      "goal_distance_error": 0.14582156448450145
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 221.41765977649686,
+      "steps": 81,
+      "time_to_goal": 16.2,
+      "path_length": 3.3618897369511704,
+      "goal_distance_error": 0.14106712859832848
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 175.63123704524787,
+      "steps": 57,
+      "time_to_goal": 11.4,
+      "path_length": 2.157905999769118,
+      "goal_distance_error": 0.12616321511354817
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 207.97034789116395,
+      "steps": 95,
+      "time_to_goal": 19.0,
+      "path_length": 3.1951129302996146,
+      "goal_distance_error": 0.11062392103889804
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 156.88039452329684,
+      "steps": 47,
+      "time_to_goal": 9.4,
+      "path_length": 1.6186945329156908,
+      "goal_distance_error": 0.14980115505941446
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 208.14679259474048,
+      "steps": 73,
+      "time_to_goal": 14.600000000000001,
+      "path_length": 3.0333358999433773,
+      "goal_distance_error": 0.12654846045723145
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 132.84149062805326,
+      "steps": 24,
+      "time_to_goal": 4.800000000000001,
+      "path_length": 0.9959468082053229,
+      "goal_distance_error": 0.13461644061582392
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 125.25404179374198,
+      "steps": 29,
+      "time_to_goal": 5.800000000000001,
+      "path_length": 0.9288206974749732,
+      "goal_distance_error": 0.11325480348432085
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 183.96002332678503,
+      "steps": 71,
+      "time_to_goal": 14.200000000000001,
+      "path_length": 2.4282138756865086,
+      "goal_distance_error": 0.11843837355195182
+    },
+    {
+      "outcome": "timeout",
+      "reward": 58.76707908342687,
+      "steps": 300,
+      "time_to_goal": null,
+      "path_length": 2.3224150749243444,
+      "goal_distance_error": 0.3226219071021307
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 157.05582782990643,
+      "steps": 38,
+      "time_to_goal": 7.6000000000000005,
+      "path_length": 1.5365232171336296,
+      "goal_distance_error": 0.12878468026537326
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 227.6902048273043,
+      "steps": 83,
+      "time_to_goal": 16.6,
+      "path_length": 3.54970904471107,
+      "goal_distance_error": 0.10584301951957893
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.23943428327054,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 1.9926832336088867
+    },
+    {
+      "outcome": "collision",
+      "reward": -99.7220675374238,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 0.6834270889968987
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 149.32070768296245,
+      "steps": 52,
+      "time_to_goal": 10.4,
+      "path_length": 1.517579562815639,
+      "goal_distance_error": 0.1256134134791629
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 190.20490611120545,
+      "steps": 61,
+      "time_to_goal": 12.200000000000001,
+      "path_length": 2.609254578431335,
+      "goal_distance_error": 0.12483096602496178
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.13714789212149,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 3.7729550653629143
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 192.83713279197298,
+      "steps": 71,
+      "time_to_goal": 14.200000000000001,
+      "path_length": 2.688067625481739,
+      "goal_distance_error": 0.11574955099658026
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 219.9277910094217,
+      "steps": 86,
+      "time_to_goal": 17.2,
+      "path_length": 3.3845193990194673,
+      "goal_distance_error": 0.11837259561075154
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.33016669073615,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 3.300822455189502
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 190.94898404396102,
+      "steps": 65,
+      "time_to_goal": 13.0,
+      "path_length": 2.5915730304053657,
+      "goal_distance_error": 0.12491114619627329
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 156.60361676293445,
+      "steps": 46,
+      "time_to_goal": 9.200000000000001,
+      "path_length": 1.6653326313531143,
+      "goal_distance_error": 0.118135290797911
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 219.003151609111,
+      "steps": 82,
+      "time_to_goal": 16.400000000000002,
+      "path_length": 3.4303757129062475,
+      "goal_distance_error": 0.14420980331334787
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 108.82963653048378,
+      "steps": 14,
+      "time_to_goal": 2.8000000000000003,
+      "path_length": 0.26140443331647273,
+      "goal_distance_error": 0.12763170413164457
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 130.22858490120348,
+      "steps": 23,
+      "time_to_goal": 4.6000000000000005,
+      "path_length": 0.848381273299832,
+      "goal_distance_error": 0.14206259208301314
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.04151841691623,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 1.4332600404496436
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 249.24749116921384,
+      "steps": 98,
+      "time_to_goal": 19.6,
+      "path_length": 4.154101217968052,
+      "goal_distance_error": 0.12967522804486614
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 162.88854736865963,
+      "steps": 57,
+      "time_to_goal": 11.4,
+      "path_length": 1.8165233692383913,
+      "goal_distance_error": 0.11402379817423017
+    },
+    {
+      "outcome": "collision",
+      "reward": -99.95416288466436,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 3.6757059993139043
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 218.38192550729428,
+      "steps": 84,
+      "time_to_goal": 16.8,
+      "path_length": 3.5451049050860455,
+      "goal_distance_error": 0.12713445525608655
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 203.30653361341425,
+      "steps": 71,
+      "time_to_goal": 14.200000000000001,
+      "path_length": 2.8961278766850973,
+      "goal_distance_error": 0.14465950610470016
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 206.10612955933283,
+      "steps": 83,
+      "time_to_goal": 16.6,
+      "path_length": 3.3223966533844833,
+      "goal_distance_error": 0.1203095528950374
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 177.53017097099314,
+      "steps": 57,
+      "time_to_goal": 11.4,
+      "path_length": 2.2085197289043776,
+      "goal_distance_error": 0.144164787316943
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.05937882389796,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 1.719403856675532
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.07347244457279,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 3.362515025469573
+    },
+    {
+      "outcome": "collision",
+      "reward": -90.79427910963138,
+      "steps": 33,
+      "time_to_goal": null,
+      "path_length": 0.394139255883742,
+      "goal_distance_error": 1.9904165635975668
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.08645784526313,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 1.1756590078524638
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 110.55441644225922,
+      "steps": 16,
+      "time_to_goal": 3.2,
+      "path_length": 0.3087033664146438,
+      "goal_distance_error": 0.14376634979093336
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 181.87315298566517,
+      "steps": 62,
+      "time_to_goal": 12.4,
+      "path_length": 2.3308228366994594,
+      "goal_distance_error": 0.12834718935573455
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 180.6728114248989,
+      "steps": 71,
+      "time_to_goal": 14.200000000000001,
+      "path_length": 2.5448946645885413,
+      "goal_distance_error": 0.1297348767244202
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 138.88774203203053,
+      "steps": 26,
+      "time_to_goal": 5.2,
+      "path_length": 1.0425974208582096,
+      "goal_distance_error": 0.14194470881884505
+    },
+    {
+      "outcome": "timeout",
+      "reward": -16.92668386256769,
+      "steps": 300,
+      "time_to_goal": null,
+      "path_length": 0.08140366932843904,
+      "goal_distance_error": 1.5211858143959252
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 218.07501189675767,
+      "steps": 83,
+      "time_to_goal": 16.6,
+      "path_length": 3.4485661709832773,
+      "goal_distance_error": 0.10676671485701443
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 177.55670313395962,
+      "steps": 55,
+      "time_to_goal": 11.0,
+      "path_length": 2.263236357642579,
+      "goal_distance_error": 0.12643607719200006
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 146.63676787729966,
+      "steps": 33,
+      "time_to_goal": 6.6000000000000005,
+      "path_length": 1.3043407213250997,
+      "goal_distance_error": 0.11092875514472447
+    },
+    {
+      "outcome": "collision",
+      "reward": -99.13475253633342,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 1.8237790462709607
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 149.41301919785928,
+      "steps": 85,
+      "time_to_goal": 17.0,
+      "path_length": 1.5734670343426154,
+      "goal_distance_error": 0.13280308672734628
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 182.0124660881973,
+      "steps": 53,
+      "time_to_goal": 10.600000000000001,
+      "path_length": 2.1738001934390287,
+      "goal_distance_error": 0.12602781547008482
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 182.02407715416874,
+      "steps": 68,
+      "time_to_goal": 13.600000000000001,
+      "path_length": 2.714359427310229,
+      "goal_distance_error": 0.1499859233036471
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 200.84136458035942,
+      "steps": 71,
+      "time_to_goal": 14.200000000000001,
+      "path_length": 2.7425021681325656,
+      "goal_distance_error": 0.11370351378951746
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 189.89630945403522,
+      "steps": 58,
+      "time_to_goal": 11.600000000000001,
+      "path_length": 2.4101645217084395,
+      "goal_distance_error": 0.13814716648366
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.18060935311546,
+      "steps": 2,
+      "time_to_goal": null,
+      "path_length": 0.0004039866179333446,
+      "goal_distance_error": 2.372610554024632
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 118.05087506462468,
+      "steps": 12,
+      "time_to_goal": 2.4000000000000004,
+      "path_length": 0.4739783331117251,
+      "goal_distance_error": 0.13355814775029845
+    },
+    {
+      "outcome": "collision",
+      "reward": -98.9104233598021,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 2.7613588826324205
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 134.79432427181803,
+      "steps": 22,
+      "time_to_goal": 4.4,
+      "path_length": 0.9071978444503074,
+      "goal_distance_error": 0.11235839128545733
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 160.85433209143343,
+      "steps": 58,
+      "time_to_goal": 11.600000000000001,
+      "path_length": 1.7193161040213283,
+      "goal_distance_error": 0.1426201504567151
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 223.86900978127807,
+      "steps": 83,
+      "time_to_goal": 16.6,
+      "path_length": 3.4292631006791114,
+      "goal_distance_error": 0.12836912725383912
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 184.74514314050685,
+      "steps": 52,
+      "time_to_goal": 10.4,
+      "path_length": 2.236168096532649,
+      "goal_distance_error": 0.12878417832642375
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 199.0871151035069,
+      "steps": 73,
+      "time_to_goal": 14.600000000000001,
+      "path_length": 2.8272623670285917,
+      "goal_distance_error": 0.14108168487486142
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.02445718210132,
+      "steps": 2,
+      "time_to_goal": null,
+      "path_length": 4.828927061475482e-05,
+      "goal_distance_error": 0.4550394201669396
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 207.47191743566745,
+      "steps": 91,
+      "time_to_goal": 18.2,
+      "path_length": 3.277043193029181,
+      "goal_distance_error": 0.13281893945385487
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.06581587680772,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 0.874370894674704
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 148.93274071516424,
+      "steps": 36,
+      "time_to_goal": 7.2,
+      "path_length": 1.5175653328961944,
+      "goal_distance_error": 0.1413393422814745
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 127.54439419514742,
+      "steps": 20,
+      "time_to_goal": 4.0,
+      "path_length": 0.7617261077313029,
+      "goal_distance_error": 0.1365687319876866
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.09433287030447,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 2.8192381482359186
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 149.01081244922608,
+      "steps": 36,
+      "time_to_goal": 7.2,
+      "path_length": 1.3575393948503491,
+      "goal_distance_error": 0.11188281522775533
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 171.054253232289,
+      "steps": 49,
+      "time_to_goal": 9.8,
+      "path_length": 1.9838765951604789,
+      "goal_distance_error": 0.14104430129267154
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 132.17300547560495,
+      "steps": 23,
+      "time_to_goal": 4.6000000000000005,
+      "path_length": 0.8791289031998503,
+      "goal_distance_error": 0.10993856518994899
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 160.3660119309527,
+      "steps": 38,
+      "time_to_goal": 7.6000000000000005,
+      "path_length": 1.6281439524481456,
+      "goal_distance_error": 0.1411474314341112
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 157.8518917652571,
+      "steps": 41,
+      "time_to_goal": 8.200000000000001,
+      "path_length": 1.6557770970211834,
+      "goal_distance_error": 0.14206731064221084
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 210.04316644242454,
+      "steps": 69,
+      "time_to_goal": 13.8,
+      "path_length": 2.940438874917393,
+      "goal_distance_error": 0.13787697296390258
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 192.73528452125998,
+      "steps": 63,
+      "time_to_goal": 12.600000000000001,
+      "path_length": 2.5181970092922787,
+      "goal_distance_error": 0.1141293066795436
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 235.72948062522224,
+      "steps": 92,
+      "time_to_goal": 18.400000000000002,
+      "path_length": 3.778730985755302,
+      "goal_distance_error": 0.14052230106360739
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 177.5299099355489,
+      "steps": 66,
+      "time_to_goal": 13.200000000000001,
+      "path_length": 2.4118697349030938,
+      "goal_distance_error": 0.13330187228297774
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 192.04202105597773,
+      "steps": 59,
+      "time_to_goal": 11.8,
+      "path_length": 2.4734014841129346,
+      "goal_distance_error": 0.12473177345473692
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 152.77293780119692,
+      "steps": 40,
+      "time_to_goal": 8.0,
+      "path_length": 1.4594568707225553,
+      "goal_distance_error": 0.1206184114739247
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.32348852950463,
+      "steps": 4,
+      "time_to_goal": null,
+      "path_length": 0.0018665480360623879,
+      "goal_distance_error": 3.502209646222954
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 145.09960677244348,
+      "steps": 40,
+      "time_to_goal": 8.0,
+      "path_length": 1.2889337846164346,
+      "goal_distance_error": 0.1323130552105358
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 143.33733306997416,
+      "steps": 34,
+      "time_to_goal": 6.800000000000001,
+      "path_length": 1.203618581221753,
+      "goal_distance_error": 0.12245722066038561
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 170.07094213532056,
+      "steps": 48,
+      "time_to_goal": 9.600000000000001,
+      "path_length": 2.014740939210915,
+      "goal_distance_error": 0.14985124080845574
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 177.94976504963472,
+      "steps": 67,
+      "time_to_goal": 13.4,
+      "path_length": 2.2710629374281726,
+      "goal_distance_error": 0.14354500799972725
+    },
+    {
+      "outcome": "collision",
+      "reward": -100.05705431292158,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 1.3872654737202144
+    },
+    {
+      "outcome": "goal_reached",
+      "reward": 182.97873802475306,
+      "steps": 110,
+      "time_to_goal": 22.0,
+      "path_length": 2.4909354592232753,
+      "goal_distance_error": 0.12222242980125798
+    },
+    {
+      "outcome": "collision",
+      "reward": -99.97961944675296,
+      "steps": 1,
+      "time_to_goal": null,
+      "path_length": 0.0,
+      "goal_distance_error": 1.511201539336025
+    }
+  ]
+}

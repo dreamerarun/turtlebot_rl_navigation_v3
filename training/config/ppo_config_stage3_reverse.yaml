@@ -1,0 +1,25 @@
+# Stage 3 (optional fine-tune): allow_reverse=true, run against
+# dead_end_fast.world so the policy can learn genuine backing-out behavior
+# instead of the structurally-forced "pushes into the wall" failure mode
+# documented in report.pdf Section 7.3. Short run -- this is refining an
+# already-converged Stage 2 policy, not learning from scratch.
+#
+# Launch:
+#   python3 train.py --config config/ppo_config_stage3_reverse.yaml \
+#       --resume ../policy/checkpoints_static/final_model.zip \
+#       --vecnorm-stats ../policy/checkpoints_static/vecnormalize.pkl
+seed: 43
+total_timesteps: 150000
+learning_rate: 0.0001   # lower LR: fine-tuning, don't wreck Stage 2's learned behavior
+n_steps: 2048
+batch_size: 128
+gamma: 0.99
+gae_lambda: 0.95
+ent_coef: 0.01
+checkpoint_freq: 25000
+checkpoint_dir: ../policy/checkpoints_reverse
+log_dir: ../results/logs_reverse
+randomize_obstacles: false
+curriculum_stage: 2
+allow_reverse: true
+dynamic_obstacle: false
